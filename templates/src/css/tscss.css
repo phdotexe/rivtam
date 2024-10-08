@@ -1,0 +1,115 @@
+/* Css styles for tamis */
+
+:root{
+    --ts-primary: #022996;
+    --ts-primary-1: #022996;
+    --ts-primary-2: ;
+    --ts-primary-3: ;
+    --ts-primary-4: ;
+    --ts-primary-5: ;
+    --ts-primary-6: #022996;
+    --ts-primary-7: ;
+    --ts-primary-8: ;
+    --ts-primary-9: ;
+    --ts-primary-10: #00081E;
+
+    --ts-gray-25: ;
+    --ts-gray-50: ;
+    --ts-gray-100: #F3F4F6;
+    --ts-gray-200: #EAECF0;
+    --ts-gray-300: ;
+    --ts-gray-400: #98A2B3;
+    --ts-gray-500: #667085;
+    --ts-gray-600: ;
+    --ts-gray-700: #344054;
+    --ts-gray-800: ;
+    --ts-gray-900: #101828;
+
+    --ts-success-25: ;
+    --ts-success-50: ;
+    --ts-success-100: ;
+    --ts-success-200: ;
+    --ts-success-300: ;
+    --ts-success-400: ;
+    --ts-success-500: ;
+    --ts-success-600: ;
+    --ts-success-700: ;
+    --ts-success-800: ;
+    --ts-success-900: ;
+
+    --ts-error-25: ;
+    --ts-error-50: ;
+    --ts-error-100: ;
+    --ts-error-200: ;
+    --ts-error-300: ;
+    --ts-error-400: ;
+    --ts-error-500: ;
+    --ts-error-600: ;
+    --ts-error-700: ;
+    --ts-error-800: ;
+    --ts-error-900: ;
+
+    --ts-black: #00081E;
+    --ts-gray-100: #F2F4F7;
+}
+
+/* 
+//styleName: Title medium (26px)/Title small (22px)/Bold;
+font-family: Geist;
+font-size: 22px;
+font-weight: 700;
+line-height: 29.7px;
+text-align: left; */
+
+.ts-primary{
+    color: var(--ts-primary);
+}
+
+.ts-gray-800{
+    color: var(--ts-gray-800)
+}
+
+.ts-gray-500{
+    color: var(--ts-gray-500)
+}
+
+.ts-gray-600{
+    color: var(--ts-gray-600)
+}
+
+.ts-gray-400{
+    color: var(--ts-gray-400)
+}
+
+.ts-gray-100{
+    color: var(--ts-gray-100)
+}
+
+.ts-link{
+    text-decoration: underline;
+}
+
+.ts-btn-primary{
+    background-color: var(--ts-black);
+    color: var(--ts-gray-100);
+}
+
+.ts-btn-primary:hover{
+    background-color: var(--ts-black);
+    color: var(--ts-gray-100);
+}
+
+.ts-radio{
+    accent-color: var(--ts-primary);
+}
+
+.ts-label{
+    color: #344054;
+    /* font-size: 14px; */
+}
+
+
+.password-message{
+    background-color: #eaeef1;
+    color: black;
+}
